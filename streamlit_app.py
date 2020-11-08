@@ -1,5 +1,12 @@
 import streamlit as st
 
+"""
+# JSON parse errors are errantly "sticky"
+
+This app was created to illustrate [issue #2324](https://github.com/streamlit/streamlit/issues/2324) by 
+demonstrating a JSON rendering bug in Streamlit v0.70.
+"""
+
 SELECT_A_STEP = "Select these options in succession to see the behavior."
 STEP_1_CORRECTLY_FORMED_JSON = "Step 1: Display correctly formed JSON"
 STEP_2_INCORRECTLY_FORMED_JSON = "Step 2: Display incorrectly formed JSON"
